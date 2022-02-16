@@ -1,6 +1,7 @@
 #include "Pre-assembler.h"
 #include "global.h"
-/* creat a new macro and add it to the head of the list , return a pointer to the new macro in the list */
+/* creat a new macro and add it to the head of the list , 
+return a pointer to the new macro in the list */
 macro  *new_macro(macro *head, char *name)
 {
     macro *newMacro = (macro *)malloc(sizeof(macro));
